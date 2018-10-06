@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jeu de la vie</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<button id="go">GO !</button>
+	<button id="plante">Générer Végetaux</button>
+	<button id="troupeau">Générer Herbivores</button>
+	<button id="dinosaure">Générer Carnivores</button>
+	<button onclick="stopInterval()" id="stop">STOP</button>
+
+	<div class="container">
+		<table class="table">
+			<tbody id="grille">
+				
+			</tbody>
+		</table>
+	</div>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="Vegetaux.js"></script>
+	<script type="text/javascript" src="Carnivores.js"></script>
+	<script type="text/javascript" src="Herbivores.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
